@@ -11,7 +11,7 @@ export class ApiService {
   constructor(private http: HttpClient) {}
 
   sendMail(data){
-    //console.log(data)
+    console.log(data)
     return  this.http.post(this.url+'/sendmail.php',data)
   }
 
