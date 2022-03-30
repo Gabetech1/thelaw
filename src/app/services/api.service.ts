@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ApiService {
-  url = 'https://gabeshub.tk/nulbulk';
+  url = 'https://clientapi.gabeshub.com/lawyer';
   //url = 'http://localhost/nulbulk/lawyer';
 
   constructor(private http: HttpClient) {}
